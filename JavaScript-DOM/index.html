@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn DOM</title>
+  </head>
+  <body>
+    <h1>Learn DOM(Document Object Model)</h1>
+
+    <h2>Element & Attribute & Events</h2>
+
+    <input type="text" placeholder="Documents Object Model" id="inputBox" />
+    <div id="taskcontainer"></div>
+
+    <h2>Keyboard Event</h2>
+
+    <!-- onkeydown="keyDown(event)" -->
+    <!-- onkeyup="keyDown(event)" -->
+
+    <input
+      onkeypress="keyDown(event)"
+      type="text"
+      placeholder="Dom KeyBoard Events"
+      id="inputKey"
+    />
+    <br />
+    <br />
+
+    <h2>Keyboard Test & Enter Event</h2>
+
+    <input type="text" placeholder="Test KeyBoard Event" id="inputText" />
+    <br />
+    <br />
+
+    <h2>Mouse Event</h2>
+
+    <!-- onmousemove="eventFunction(event)" -->
+    <!-- onclick="eventFunction(event)" -->
+    <!-- onmouseover="eventFunction(event)" -->
+    <!-- onmousewheel="eventFunction(event)" -->
+
+    <input
+      onmouseover="eventFunction(event)"
+      type="text"
+      placeholder="Dom Mouse Events"
+      id="inputMouse"
+    />
+    <br />
+    <br />
+
+    <h2>Build-in Eventhandlers</h2>
+
+    <input type="text" placeholder="Enter Some Tasks" />
+    <button type="submit" id="addBtn">Click</button>
+  </body>
+  <script src="script.js"></script>
+</html>
