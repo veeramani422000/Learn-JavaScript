@@ -131,12 +131,12 @@ window.addEventListener(
 // 2. Slightly Fast
 
 //* DisAdvantage..
-// 1.Unmanagebale
+// 1.Unmanageable
 // 2.Scope
 
 // ? Object Model
 //* Advantage
-// 1.managebale
+// 1.manageable
 // 2.Scope
 // 3.Object
 
@@ -173,6 +173,6 @@ addButton.addEventListener("click", newFunction);
 // }
 // add(10,5)
 
-// let fruits = "Apple"; // ? Ex: object model disadvantange
-// fruits = "New APpple";
+// let fruits = "Apple"; // ? Ex: object model disadvantage
+// fruits = "New Apple";
 // console.log(fruits);
